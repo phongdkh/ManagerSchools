@@ -19,4 +19,7 @@ class Teacher extends Person {
   Teacher(int id, String name, String numberPhone, String address, this._salary,
       this._numberWorkDay)
       : super(id, name, numberPhone, address);
+
+  int gerSalary() => _numberWorkDay * 800000;
 }
+
